@@ -1,4 +1,4 @@
-html : 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,7 +18,7 @@ html :
     <main class="services">
         <a href="services.php"><h2 class="nos_services">Nos services</h2></a>
 
-        <div class="container">
+        <div class="accueil-container">
             <article class="article">
                 <a href="audit.html"class="article-img"><img src="images/audit de sécurité.png" alt="icone Audit de sécurité"></a>
                 <h3><a href="audit.php">Audit</a></h2>
@@ -39,7 +39,15 @@ html :
             </article>
             <hr>
         </div>   
-            <div class="formation">Formation disponible pour particuliers et professionnels - <a href="contact.php" class="ensavoirplus">En savoir plus</a></div> 
+            <div class="formation">Formation cybersécurité et développement web/web mobile disponible pour particuliers et professionnels - <a href="contact.php" class="ensavoirplus">En savoir plus</a></div> 
+            <hr>
+            <h4 class="Developpement">Développement Web</h4>
+            <div class="scaletech">
+                <p>
+                    Besoin de visibilité ? une idée d'application web en tête ? faites appel à notre agence web <a href="scaletech.php" class="visite_scaletech">zl.ScaleTech.com</a> 
+                </p>
+            </div>
+
     </main> 
 
         <?php require_once(__DIR__ . '/footer.php'); ?>
